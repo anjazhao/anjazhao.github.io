@@ -1,0 +1,30 @@
+.body {
+  font-family: 'Montserrat', helvetica neue, arial, sans-serif;
+  color: white;
+  background-color: black;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(myanmar.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.btn-primary {
+color: #fff;
+background-color: #434C4C;
+border-color: #434C4C;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+color: #fff;
+background-color: #697070;
+border-color: #697070;
+}
+
+img {
+  width: 100%;
+}
