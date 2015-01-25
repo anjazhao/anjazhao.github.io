@@ -23,32 +23,16 @@ p, li {
   line-height: 24px;
 }
 img {
-  float: right;
   width: 50%;
 }
 #title {
-  float: left;
   color: grey;
 }
 #travel {
-  float: left;
   clear: both;
   background-color: black;
   color: gray;
   padding: 20px;
   border: 1px solid black;
   margin-top: 20px;
-}
-#BigSur {
-  float: right;
-}
-
-}
-#Sealions {
-  float: right;
-}
-
-}
-#SDB {
-  float: right;
 }
