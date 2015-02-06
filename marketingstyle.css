@@ -1,22 +1,14 @@
 body {
   font-family: "Lucida Grande","Lucida Sans Unicode","Arial";
   font-size: 11px;
+  background-color: #191919;
 }  
 
 .background {
   font-family: "Lucida Grande","Lucida Sans Unicode","Arial";
-  color: white;
+  color: #697070;
+  font-size: 11px;
   background-color: #191919;
-}
-
-.jumbotron {
-    font-family: helvetica neue, arial, sans-serif;
-    margin-bottom: 0px;
-    background-image: url(images/myanmar.jpg);
-    background-position: 0% 25%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
 }
 
 .navbar-default {
@@ -43,4 +35,12 @@ border-color: #697070;
 img {
   width: 100%;
   border-radius: 0;
+}
+
+h1 {
+  font-size:20px;
+}
+
+ul {
+  list-style-type: none;
 }

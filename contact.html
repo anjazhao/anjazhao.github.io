@@ -4,43 +4,88 @@
   <title>Contact</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="marketingstyle.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="marketingstyle.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 <body>
+
+  <div class="background">
+  <div class="container">
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://anjazhao.github.io/">ANJA ZHAO PHOTOGRAPHY</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Photo</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Travel<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Myanmar</a></li>
+            <li><a href="#">California</a></li>
+            <li><a href="#">South America</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Other places</a></li>
+          </ul>
+        </li>
+        <li><a href="http://instagram.com/a_ny_a">Instagram</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
   <div id="wrapper">
-    <h1>Connect with Anja Zhao</h1>
+    <h1>CONTACT</h1>
     <section>
       <ul>
-        <li><a href="mailto:anjazhao@gmail.com">Email</a></li>
-        <li><a href="https://twitter.com/a_ny_a">Twitter</a></li>
-        <li><a href="http://facebook.com/anjazhao">Facebook</a></li>
+        <li>
+        <i class="fa fa-envelope"></i>
+        <a href="mailto:anjazhao@gmail.com">Email</a></li>
+        <li>
+        <i class="fa fa-twitter"></i>
+        <a href="https://twitter.com/a_ny_a">Twitter</a></li>
+        <li>
+        <i class="fa fa-facebook-official"></i>
+        <a href="http://facebook.com/anjazhao">Facebook</a></li>
       </ul>
 
-  <form>
+<!-- FORM -->
+  <form action="mailto:azhao2015@kellogg.northwestern.edu" method="get" enctype="text/plain">
   <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <label for="exampleInputName">Your name</label>
+    <input type="name" class="form-control" id="exampleInputName" placeholder="Name">
   </div>
   <div class="form-group">
-    <label for="exampleInputFile">File input</label>
-    <input type="file" id="exampleInputFile">
-    <p class="help-block">Example block-level help text here.</p>
+    <label for="exampleInputEmail1">Your email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
   </div>
-  <div class="checkbox">
-    <label>
-      <input type="checkbox"> Check me out
-    </label>
+  <div class="form-group">
+    <label for="subject">Subject</label>
+    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
   </div>
-  <button type="submit" class="btn btn-default">Submit</button>
+  <div class="form-group">
+    <label for="body">Your Message</label>
+    <input type="text" class="form-control" id="body" name="body" placeholder="Text">
+  </div>
+  <button type="sendmessage" class="btn btn-default">Send Message</button>
   </form>
 
-      <p>
-        <a href="index.html"> go back</a>
-      </p>
     </section>
   </div>
 </body>
